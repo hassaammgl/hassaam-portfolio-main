@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Box,Sphere, useTexture } from "@react-three/drei";
+import { OrbitControls, Box, useTexture } from "@react-three/drei";
 import { CTA } from "../components";
 import { experiences, skills } from "../constants";
 
@@ -34,8 +34,8 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap  gap-12'>
           {skills.map((skill) => (
-            <Canva key={skill.name} skill={skill} />
-            // <Skiller key={skill.name} skill={skill} />
+            // <Canva key={skill.name} skill={skill} />
+            <Skiller key={skill.name} skill={skill} />
           ))}
         </div>
       </div>
@@ -124,18 +124,15 @@ const Skiller = ({ skill }) => {
     </div>
   )
 }
-const Skiller2 = ({ skill }) => {
-  const texture = useTexture(skill.imageUrl)
-  return (
-    // <Box args={[4, 4, 4]} >
-    //   <meshStandardMaterial map={texture} color={"white"} />
-    // </Box>
-    <Sphere args={[4, 50, 50]} >
-       <meshStandardMaterial map={texture} color={"white"} />
+// const Skiller2 = ({ skill }) => {
+//   const texture = useTexture(skill.imageUrl)
+//   return (
+//     <Box args={[4, 50, 50]} >
+//        <meshStandardMaterial map={texture} color={"white"} />
 
-    </Sphere>
-  )
-}
+//     </Box>
+//   )
+// }
 
 const Canva = ({ skill }) => {
   return <Canvas className='block-container border-2 w-40 h-40' >
@@ -143,6 +140,6 @@ const Canva = ({ skill }) => {
     <ambientLight />
     <pointLight position={[10, 10, 10]} />
 
-    <Skiller2 skill={skill} />
+    <Skiller skill={skill} />
   </Canvas>
 } 
