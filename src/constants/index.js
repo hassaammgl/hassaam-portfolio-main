@@ -118,9 +118,8 @@ export const experiences = [
         date: "December 2023 - January 2024",
         points: [
             "Developing and maintaining web applications using Next.js and Scss.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Ensuring that client like my work and happy with me.",
         ],
     },
     {
@@ -130,10 +129,9 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "January 2024 - February 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web applications using Next.js and Scss.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Ensuring that client like my work and happy with me.",
         ],
     },
     {
