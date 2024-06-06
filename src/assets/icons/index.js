@@ -26,6 +26,7 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import textile from "./textile.svg"
 
 export {
     css,
@@ -41,6 +42,7 @@ export {
     nodejs,
     react,
     redux,
+    textile,
     sass,
     tailwindcss,
     typescript,

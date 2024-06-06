@@ -14,6 +14,7 @@ import {
     motion,
     mui,
     nextjs,
+    textile,    
     nodejs,
     pricewise,
     react,
@@ -25,6 +26,7 @@ import {
     threads,
     typescript
 } from "../assets/icons";
+
 
 export const skills = [
     {
@@ -180,11 +182,11 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: textile,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Textile Industry ',
+        description: 'Developed a web application where you can see the products of the Brand and check their quality, availability.',
+        link: 'https://github.com/hassaammgl/PARRE-Textiles',
     },
     {
         iconUrl: threads,
