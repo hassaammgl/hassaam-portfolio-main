@@ -37,11 +37,11 @@ export const skills = [
         name: "Express",
         type: "Backend",
     },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
+    // {
+    //     imageUrl: git,
+    //     name: "Git",
+    //     type: "Version Control",
+    // },
     {
         imageUrl: github,
         name: "GitHub",
@@ -62,11 +62,11 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
     {
         imageUrl: mui,
         name: "Material-UI",
@@ -102,11 +102,11 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [

@@ -8,9 +8,23 @@ import { CTA } from "../components";
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
-import { useRef } from "react";
+import { useRef,useEffect, useMemo, useState  } from "react";
+// import Particles, { initParticlesEngine } from "@tsparticles/react";
+// import { loadSlim } from "@tsparticles/slim"; //
 
 const About = () => {
+
+  const [init, setInit] = useState(false);
+
+  // this should be run only once per application lifetime
+  // useEffect(() => {
+  //   initParticlesEngine(async (engine) => {
+  //     await loadSlim(engine);
+  //   }).then(() => {
+  //     setInit(true);
+  //   });
+  // }, []);
+
   return (
     <section className='max-container'>
       <h1 className='head-text'>
