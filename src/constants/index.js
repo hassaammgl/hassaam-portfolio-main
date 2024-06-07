@@ -7,14 +7,16 @@ import {
     express,
     git,
     github,
+    chat,
     html,
     javascript,
     linkedin,
     mongodb,
     motion,
     mui,
+    portfolio,
     nextjs,
-    textile,    
+    textile,
     nodejs,
     pricewise,
     react,
@@ -39,11 +41,6 @@ export const skills = [
         name: "Express",
         type: "Backend",
     },
-    // {
-    //     imageUrl: git,
-    //     name: "Git",
-    //     type: "Version Control",
-    // },
     {
         imageUrl: github,
         name: "GitHub",
@@ -64,11 +61,6 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    // {
-    //     imageUrl: motion,
-    //     name: "Motion",
-    //     type: "Animation",
-    // },
     {
         imageUrl: mui,
         name: "Material-UI",
@@ -104,11 +96,6 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: typescript,
-    //     name: "TypeScript",
-    //     type: "Frontend",
-    // }
 ];
 
 export const experiences = [
@@ -147,19 +134,6 @@ export const experiences = [
             "Getting the feedback from the client and building the website according to his needs.",
         ],
     },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
 ];
 
 export const socialLinks = [
@@ -183,44 +157,23 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: textile,
-        theme: 'btn-back-red',
+        theme: 'btn-back-yellow',
         name: 'Textile Industry ',
-        description: 'Developed a web application where you can see the products of the Brand and check their quality, availability.',
+        description: 'Developed a web application where you can view the products of the brand and check their quality and availability.',
         link: 'https://github.com/hassaammgl/PARRE-Textiles',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        iconUrl: portfolio,
+        theme: 'btn-back-black',
+        name: 'Portfolio Website',
+        description: 'Created a website that allows you to view user skills and reach out to them via the front-end.',
+        link: 'https://github.com/hassaammgl/hassaam-portfolio-main',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
+        iconUrl: chat,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        name: 'Full Stack Chat App',
+        description: 'Buyers have the ability to inspect his product and reach out to him directly. Buyers can also chat with the seller directly.',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];

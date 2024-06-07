@@ -23,16 +23,21 @@ import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
+import portfolio from "./portfolio.svg"
 import contact from './contact.svg'
+import chat from "./chat.svg"
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import textile from "./textile.svg"
 
+
 export {
     css,
     express,
+    chat,
     git,
     github,
+    portfolio,
     html,
     javascript,
     mongodb,
