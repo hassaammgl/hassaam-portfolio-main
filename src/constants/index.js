@@ -174,6 +174,6 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Full Stack Chat App',
         description: 'Buyers have the ability to inspect his product and reach out to him directly. Buyers can also chat with the seller directly.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://github.com/hassaammgl/MERN-Stack-Chat-App',
     },
 ];
