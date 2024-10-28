@@ -167,7 +167,7 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'Portfolio Website',
         description: 'Created a website that allows you to view user skills and reach out to them via the front-end.',
-        link: 'https://github.com/hassaammgl/hassaam-portfolio-main',
+        link: 'https://github.com/hassaammgl/monster-programming-portfolio',
     },
     {
         iconUrl: chat,
