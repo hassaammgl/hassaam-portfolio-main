@@ -19,6 +19,7 @@ import {
     textile,
     nodejs,
     pricewise,
+    macbook,
     react,
     redux,
     sass,
@@ -134,6 +135,17 @@ export const experiences = [
             "Getting the feedback from the client and building the website according to his needs.",
         ],
     },
+    {
+        title: "Frontend Developer",
+        company_name: "Personal ",
+        icon: linkedin,
+        iconBg: "#b0b3b8",
+        date: "October 2024 - October 2024",
+        points: [
+            "Developing and maintaining web applications using React.js , ShadCN , Tailwind CSS.",
+            "Mulated Apple's design aesthetic with attention to detail, creating a responsive and visually appealing product showcase page.",
+        ],
+    },
 ];
 
 export const socialLinks = [
@@ -175,5 +187,12 @@ export const projects = [
         name: 'Full Stack Chat App',
         description: 'Buyers have the ability to inspect his product and reach out to him directly. Buyers can also chat with the seller directly.',
         link: 'https://github.com/hassaammgl/MERN-Stack-Chat-App',
+    },
+    {
+        iconUrl: macbook,
+        theme: 'btn-back-black',
+        name: 'Macbook Website Clone',
+        description: "A high-fidelity replica of Apple's MacBook Pro page, crafted to demonstrate responsive design and meticulous attention to detail.This project captures the clean, modern interface of Apple's original, highlighting my front-end development and design skills",
+        link: 'https://github.com/hassaammgl/Apple-3D-Website-Project'
     },
 ];

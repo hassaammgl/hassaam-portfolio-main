@@ -29,6 +29,7 @@ import chat from "./chat.svg"
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import textile from "./textile.svg"
+import macbook from "./macbook.svg"
 
 
 export {
@@ -62,5 +63,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    macbook
 }
